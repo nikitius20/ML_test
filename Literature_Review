@@ -1,0 +1,43 @@
+Neuromorphic Computation
+
+It is an approach to computing that is inspired by the structure and function of the human brain. Unlike the Von Neumann architecture,
+where the data is passing between Central processing unit and memmory storage. The Neuromorphic chip, tries to mimic human brain where
+data and processing is done by neurons.
+In current conputers, we have electric current flow, wich indicaates either one or zero.
+In real brain we have neurons, and electric current (Ion's) that flows through the synapsis (the gaps between neurons). 
+Dependent by the kind, and number of ions, the receving neuron is activated in some way - this, is what Neuromorphic chip 
+is trying to imitate.
+
+There are a couple of available Neuromorphic chips today.
+
+The most promissing today is IBM's TrueNorth or Intel's Loihi chips. They are not selling for general public, but
+it is possible to get them if you ask and have good research credentials direclty from IBM or Intel.
+
+-Intel's Loihi 2
+    Neurons: 1 million
+    Synapses: 120 million max
+
+The available ones is
+
+- Akida - BrainChip
+    Has 256(configurable) neurons and configurable amount of Synapses. It accelerates complex AI at the edge through event-based 
+    processing, on-chip learning abilities, and support for advanced neural networks like CNNs, RNNs & custom Temporal Event-based Nets.
+- Speck - SynSense
+    Speck is a fully event-driven neuromorphic vision SoC
+    Neurons: 328K
+    Synapses: ~278K fully-connected
+- SpiNNaker 2 - University of Dresden
+    Dedicated Machine Learning and Neuromorphic accelerators.
+    Neurons: 1 million
+    Synapses: 10000
+- DynapCNN - SynSense
+    Event-driven neuromorphic processor chip for spiking neural networks that achieves sub-milliwatt computation using in-memory techniques
+    Neurons: 1M
+    Synapses: ~2M fully-connected
+- Spiking Neural Processor T1 by Innatera (2024)
+    Has ~500 Neurons and ~60000 Synapses. The SNP is positioned as a single-chip solution for always-on sensing applications where tight 
+    constraints on power, latency, and cost are critical. Example applications include hearables/wearables, smart-home and other 
+    battery-powered IoT and edge devices.
+
+
+The data about chips was taken from https://open-neuromorphic.org/neuromorphic-computing/hardware/
