@@ -8,3 +8,6 @@ For this I created a Simple Custom Module, that has a learnable parametr "power"
 
 Task 2 
 For this task I used AutoEncoder
+
+Unfortunately I had come troubles downloading all the dataset, from Google Drive. 
+And it only downloaded 40 files, thats what I used, but it should work for 5000
